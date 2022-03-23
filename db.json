@@ -1,0 +1,178 @@
+{
+    "OPCharacters":[{
+        "id": 0,
+        "name": "Luffy",
+        "crew": "Straw hat Pirates", 
+        "image": "https://static.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/686?cb=20200429191518",
+        "like": 
+    },
+    {
+        "id": 1,
+        "name": "Zoro",
+        "crew": "Straw hat Pirates", 
+        "image": "https://static.wikia.nocookie.net/onepiece/images/5/52/Roronoa_Zoro_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/901?cb=20141008195159",
+        "like": 
+    },
+    {
+        "id": 2,
+        "name": "Nami",
+        "crew": "Straw hat Pirates", 
+        "image": "https://static.wikia.nocookie.net/onepiece/images/6/68/Nami_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20190720162446",
+        "like": 
+    },
+    {
+        "id": 3,
+        "name": "Usopp",
+        "crew": "Straw hat Pirates", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 4,
+        "name": "Sanji",
+        "crew": "Straw hat Pirates", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 5,
+        "name": "Chopper",
+        "crew": "Straw hat Pirates", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 6,
+        "name": "Nico",
+        "crew": "Straw hat Pirates", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 7,
+        "name": "Franky",
+        "crew": "Straw hat Pirates", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 8,
+        "name": "Brook",
+        "crew": "Straw hat Pirates", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 9,
+        "name": "Jinbe",
+        "crew": "Straw hat Pirates", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 10,
+        "name": "Ace",
+        "crew": "Whitebeard Pirates", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 11,
+        "name": "Shanks",
+        "crew": "Red Hair Pirates", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 12,
+        "name": "Silvers Rayleigh",
+        "crew": "Roger Pirates", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 13,
+        "name": "Gol D. Roger",
+        "crew": "Roger Pirates", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 14,
+        "name": "Edward Newgate",
+        "crew": "Whitebeard Pirates", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 15,
+        "name": "Marco",
+        "crew": "Whitebeard Pirates", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 16,
+        "name": "Sabo",
+        "crew": "Revolutionary Army", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 17,
+        "name": "Monkey D. Dragon",
+        "crew": "Revolutionary Army", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 18,
+        "name": "Monkey D. Garp",
+        "crew": "Marine", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 19,
+        "name": "Akainu",
+        "crew": "Marine", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 20,
+        "name": "Kuzan",
+        "crew": "Former Marine", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 21,
+        "name": "Fujitora",
+        "crew": "Marine", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 22,
+        "name": "Kaido",
+        "crew": "Beast Pirates", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 23,
+        "name": "Big Mom",
+        "crew": "BiG Mom Pirates", 
+        "image": ,
+        "like": 
+    },
+    {
+        "id": 24,
+        "name": "Trafalar D. Water Law",
+        "crew": "Heart Pirates", 
+        "image": ,
+        "like": 
+    },
+]
+}
