@@ -14,7 +14,7 @@ body{
     height: 6rem;
     width: auto;
 }
-#OPCharacters {
+#OP-Characters {
     margin: 2rem;
 }
 .card{
@@ -23,11 +23,11 @@ body{
     padding: 1rem;
     width:  15rem;
     height: 25rem;
-    display: -ms-inline-grid;
+    display: inline-grid;
     margin: 1rem 2rem;
     box-shadow: 3px 4px lightblue;
 }
-.OPCharacters-avatar {
+.OP-Characters-avatar {
     justify-self: center;
     height: 12rem;
     width: auto;
