@@ -1,23 +1,22 @@
-const OPCharacters = document.querySelector('#OP-Characters')
+const OPCollection = document.querySelector('#OP-Collection')
 const OnePiece = "http://localhost:3000/OPCharacters"
-console.log(OPCharacters)
 
-let OPCollection;
+const input = document.querySelector('#search-input')
+let OPCharacters = [];
 
 function pirates(){
     fetch(OnePiece)
     .then(resp => resp.json())
     .then(data => {
-        OPCollection = data
+        OPCharacters = data
         cardContainer()
     })
 }
 function cardContainer(){
-    OPCollection.forEach(pirate => {
-        console.log(pirate)
+    OPCharacters.forEach(pirate => {
         let div = document.createElement('div')
         div.className = 'card'
-        OPCharacters.append(div)
+        OPCollection.append(div)
 
         let header = document.createElement('h2')
         header.innerHTML = pirate.name
@@ -28,5 +27,29 @@ function cardContainer(){
         image.className = 'OP-Characters-avatar'
         div.append(image)
     });
+    
 }
+function handleSearch(event){
+    const searchInput = event.target.value
+    const filterOnePiece = OPCharacters.filter(pirate =>{
+        return(
+            pirate.name.toLowerCase().includes(searchInput)
+        )
+    })
+    console.log(filterOnePiece)
+}
+
+
+// input.addEventListener('keyup', function(e){
+//     const searchInput = e.target.value 
+//      debugger;
+//     const filterOnePiece = OPCollection.filter(pirate =>{
+//         return(
+//             pirate.name.includes(searchInput)
+            
+//         ) 
+//     })
+//     pirates(filterOnePiece)
+// })
+document.addEventListener('click', handleSearch)
 document.addEventListener('DOMContentLoaded', pirates)

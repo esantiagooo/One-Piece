@@ -19,7 +19,7 @@ body{
 }
 .card{
     text-align: center;
-    border: bisque 1px;
+    border: rgb(20, 20, 20) 1px;
     padding: 1rem;
     width:  15rem;
     height: 25rem;
