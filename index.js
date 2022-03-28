@@ -22,6 +22,10 @@ function cardContainer(){
         header.innerHTML = pirate.name
         div.append(header)
 
+        let crew = document.createElement('h3')
+        crew.innerHTML = pirate.crew
+        div.append(crew)
+
         let image = document.createElement('img')
         image.src = pirate.image
         image.className = 'OP-Characters-avatar'
