@@ -26,11 +26,17 @@ function cardContainer(){
         image.src = pirate.image
         image.className = 'OP-Characters-avatar'
         div.append(image)
+
+        let button = document.createElement('button')
+        button.className = 'delete-btn'
+        button.id = pirate.id
+        button.innerHTML = 'Delete'
+        div.append(button)
     });
     
 }
 function handleSearch(event){
-    const searchInput = event.target.value
+    const searchInput = event.target.value.toLowerCase()
     const filterOnePiece = OPCharacters.filter(pirate =>{
         return(
             pirate.name.toLowerCase().includes(searchInput)
@@ -51,5 +57,5 @@ function handleSearch(event){
 //     })
 //     pirates(filterOnePiece)
 // })
-document.addEventListener('click', handleSearch)
+document.addEventListener('keyup', handleSearch)
 document.addEventListener('DOMContentLoaded', pirates)
