@@ -30,7 +30,7 @@ function cardContainer(){
         let button = document.createElement('button')
         button.className = 'delete-btn'
         button.id = pirate.id
-        button.innerHTML = 'Delete'
+        button.textContent = 'Delete'
         div.append(button)
     });
     
