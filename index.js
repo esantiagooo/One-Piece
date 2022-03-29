@@ -1,5 +1,7 @@
 const OPCollection = document.querySelector('#OP-Collection')
 const OnePiece = "http://localhost:3000/OPCharacters"
+const form = document.querySelector('#form-container')
+console.log(form)
 
 const input = document.querySelector('#search-input')
 let OPCharacters = [];
