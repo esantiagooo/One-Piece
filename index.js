@@ -6,34 +6,30 @@ console.log(form)
 const input = document.querySelector('#search-input')
 let OPCharacters = [];
 
-form.addEventListener('submit', function(event){
-    event.preventDefault()
-    const name = document.querySelector('#new-character').value
-    const picture = document.querySelector('#new-image').value
-    const squad = document.querySelector('#new-crew').value
-     let createCharacter = {
-         name: name,
-         image: picture,
-         crew: squad,
-     }
-     fetch(OnePiece,{
-         method: 'POST',
-         headers: {
-             'Content-type': 'application/json',
-             'Accept': 'application/json'
-         },
-         body: JSON.stringify(createCharacter)
-     })
-     cardContainer(createCharacter)
-     form.reset()
-    
-})
+// form.addEventListener('submit', function(event){
+//     event.preventDefault()
+//     const name = document.querySelector('#new-character').value
+//     const picture = document.querySelector('#new-image').value
+//     const squad = document.querySelector('#new-crew').value
+//      let createCharacter = {
+//          name: name,
+//          image: picture,
+//          crew: squad,
+//      }
+//      fetch(OnePiece,{
+//          method: 'POST',
+//          headers: {
+//              'Content-type': 'application/json',
+//              'Accept': 'application/json'
+//          },
+//          body: JSON.stringify(createCharacter)
+//      })
+//      .then(resp => resp.json())
+//      .then(createCharacter => cardContainer(createCharacter)
+//       //form.reset()
+//      )   
+// })
 
-function gatherDataForm(event){
-    return{
-         Name: event.target.value
-    }
-}
 
 function pirates(){
     fetch(OnePiece)
@@ -57,10 +53,10 @@ function cardContainer(){
         crew.innerHTML = pirate.crew
         div.append(crew)
 
-        let img = document.createElement('img')
-        img.src = pirate.image
-        img.className = 'OP-Characters-avatar'
-        div.append(img)
+        let image = document.createElement('img')
+        image.src = pirate.image
+        image.className = 'OP-Characters-avatar'
+        div.append(image)
 
         let button = document.createElement('button')
         button.className = 'delete-btn'
@@ -70,6 +66,29 @@ function cardContainer(){
     });
     
 }
+
+form.addEventListener('submit', function(event){
+    event.preventDefault()
+    const name = document.querySelector('#new-character').value
+    const picture = document.querySelector('#new-image').value
+    const squad = document.querySelector('#new-crew').value
+     let createCharacter = {
+         name: name,
+         image: picture,
+         crew: squad,
+     }
+     fetch(OnePiece,{
+         method: 'POST',
+         headers: {
+             'Content-type': 'application/json',
+             'Accept': 'application/json'
+         },
+         body: JSON.stringify(createCharacter)
+     })
+      cardContainer(createCharacter)
+    form.reset()
+      
+})
 // function handleSearch(event){
 //     const searchInput = event.target.value.toLowerCase()
 //     const filterOnePiece = OPCharacters.filter(pirate =>{
