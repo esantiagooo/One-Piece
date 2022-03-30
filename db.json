@@ -1,178 +1,185 @@
 {
-    "OPCharacters":[{
-        "id": 0,
-        "name": "Luffy",
-        "crew": "Straw hat Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/686?cb=20200429191518",
-        "like" :10 
+  "OPCharacters": [
+    {
+      "id": 0,
+      "name": "Luffy",
+      "crew": "Straw hat Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/686?cb=20200429191518",
+      "like": 10
     },
     {
-        "id": 1,
-        "name": "Zoro",
-        "crew": "Straw hat Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/5/52/Roronoa_Zoro_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/901?cb=20141008195159",
-        "like": 9
+      "id": 1,
+      "name": "Zoro",
+      "crew": "Straw hat Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/5/52/Roronoa_Zoro_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/901?cb=20141008195159",
+      "like": 9
     },
     {
-        "id": 2,
-        "name": "Nami",
-        "crew": "Straw hat Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/6/68/Nami_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20190720162446",
-        "like": 4
+      "id": 2,
+      "name": "Nami",
+      "crew": "Straw hat Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/6/68/Nami_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20190720162446",
+      "like": 4
     },
     {
-        "id": 3,
-        "name": "Usopp",
-        "crew": "Straw hat Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/3/35/Usopp_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20130708033601",
-        "like": 5
+      "id": 3,
+      "name": "Usopp",
+      "crew": "Straw hat Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/3/35/Usopp_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20130708033601",
+      "like": 5
     },
     {
-        "id": 4,
-        "name": "Sanji",
-        "crew": "Straw hat Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/b/b6/Sanji_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/968?cb=20170625125657",
-        "like": 5
+      "id": 4,
+      "name": "Sanji",
+      "crew": "Straw hat Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/b/b6/Sanji_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/968?cb=20170625125657",
+      "like": 5
     },
     {
-        "id": 5,
-        "name": "Chopper",
-        "crew": "Straw hat Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/a/af/Tony_Tony_Chopper_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/360?cb=20130428202154",
-        "like": 7
+      "id": 5,
+      "name": "Chopper",
+      "crew": "Straw hat Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/a/af/Tony_Tony_Chopper_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/360?cb=20130428202154",
+      "like": 7
     },
     {
-        "id": 6,
-        "name": "Nico",
-        "crew": "Straw hat Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/b/bc/Nico_Robin_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/700?cb=20190202051257",
-        "like": 6
+      "id": 6,
+      "name": "Nico",
+      "crew": "Straw hat Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/b/bc/Nico_Robin_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/700?cb=20190202051257",
+      "like": 6
     },
     {
-        "id": 7,
-        "name": "Franky",
-        "crew": "Straw hat Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/8/8c/Franky_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/645?cb=20130225034035",
-        "like": 8
+      "id": 7,
+      "name": "Franky",
+      "crew": "Straw hat Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/8/8c/Franky_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/645?cb=20130225034035",
+      "like": 8
     },
     {
-        "id": 8,
-        "name": "Brook",
-        "crew": "Straw hat Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/4/41/Brook_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/898?cb=20161016160925",
-        "like": 9
+      "id": 8,
+      "name": "Brook",
+      "crew": "Straw hat Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/4/41/Brook_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/898?cb=20161016160925",
+      "like": 9
     },
     {
-        "id": 9,
-        "name": "Jinbe",
-        "crew": "Straw hat Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/8/81/Jinbe_Anime_Infobox.png/revision/latest/scale-to-width-down/994?cb=20170521201349",
-        "like": 9
+      "id": 9,
+      "name": "Jinbe",
+      "crew": "Straw hat Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/8/81/Jinbe_Anime_Infobox.png/revision/latest/scale-to-width-down/994?cb=20170521201349",
+      "like": 9
     },
     {
-        "id": 10,
-        "name": "Ace",
-        "crew": "Whitebeard Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/e/eb/Ace_Digitally_Colored_Manga.png/revision/latest/scale-to-width-down/606?cb=20211103083137",
-        "like": 11
+      "id": 10,
+      "name": "Ace",
+      "crew": "Whitebeard Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/e/eb/Ace_Digitally_Colored_Manga.png/revision/latest/scale-to-width-down/606?cb=20211103083137",
+      "like": 11
     },
     {
-        "id": 11,
-        "name": "Shanks",
-        "crew": "Red Hair Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/b/bd/Shanks_in_the_Digitally_Colored_Manga.png/revision/latest/scale-to-width-down/1000?cb=20211119004317",
-        "like": 13
+      "id": 11,
+      "name": "Shanks",
+      "crew": "Red Hair Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/b/bd/Shanks_in_the_Digitally_Colored_Manga.png/revision/latest/scale-to-width-down/1000?cb=20211119004317",
+      "like": 13
     },
     {
-        "id": 12,
-        "name": "Silvers Rayleigh",
-        "crew": "Roger Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/7/76/Rayleigh_Digitally_Colored_Manga.png/revision/latest/scale-to-width-down/490?cb=20211015094125",
-        "like": 12
+      "id": 12,
+      "name": "Silvers Rayleigh",
+      "crew": "Roger Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/7/76/Rayleigh_Digitally_Colored_Manga.png/revision/latest/scale-to-width-down/490?cb=20211015094125",
+      "like": 12
     },
     {
-        "id": 13,
-        "name": "Gol D. Roger",
-        "crew": "Roger Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/7/7c/Roger_at_Age_51.png/revision/latest/scale-to-width-down/870?cb=20210307042503",
-        "like": 9
+      "id": 13,
+      "name": "Gol D. Roger",
+      "crew": "Roger Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/7/7c/Roger_at_Age_51.png/revision/latest/scale-to-width-down/870?cb=20210307042503",
+      "like": 9
     },
     {
-        "id": 14,
-        "name": "Edward Newgate",
-        "crew": "Whitebeard Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/b/b7/Edward_Newgate_Anime_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20130519004643",
-        "like": 10
+      "id": 14,
+      "name": "Edward Newgate",
+      "crew": "Whitebeard Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/b/b7/Edward_Newgate_Anime_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20130519004643",
+      "like": 10
     },
     {
-        "id": 15,
-        "name": "Marco",
-        "crew": "Whitebeard Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/2/2c/Marco_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20190623080200",
-        "like": 12
+      "id": 15,
+      "name": "Marco",
+      "crew": "Whitebeard Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/2/2c/Marco_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20190623080200",
+      "like": 12
     },
     {
-        "id": 16,
-        "name": "Sabo",
-        "crew": "Revolutionary Army", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/7/76/Sabo_Digitally_Colored_Manga.png/revision/latest/scale-to-width-down/512?cb=20211103084148",
-        "like": 12
+      "id": 16,
+      "name": "Sabo",
+      "crew": "Revolutionary Army",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/7/76/Sabo_Digitally_Colored_Manga.png/revision/latest/scale-to-width-down/512?cb=20211103084148",
+      "like": 12
     },
     {
-        "id": 17,
-        "name": "Monkey D. Dragon",
-        "crew": "Revolutionary Army", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/f/f5/Monkey_D._Dragon_Anime_Infobox.png/revision/latest/scale-to-width-down/494?cb=20190513131820",
-        "like": 14
+      "id": 17,
+      "name": "Monkey D. Dragon",
+      "crew": "Revolutionary Army",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/f/f5/Monkey_D._Dragon_Anime_Infobox.png/revision/latest/scale-to-width-down/494?cb=20190513131820",
+      "like": 14
     },
     {
-        "id": 18,
-        "name": "Monkey D. Garp",
-        "crew": "Marine", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/6/62/Garp_at_Age_40.png/revision/latest/scale-to-width-down/993?cb=20210118120028",
-        "like": 12
+      "id": 18,
+      "name": "Monkey D. Garp",
+      "crew": "Marine",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/6/62/Garp_at_Age_40.png/revision/latest/scale-to-width-down/993?cb=20210118120028",
+      "like": 12
     },
     {
-        "id": 19,
-        "name": "Akainu",
-        "crew": "Marine", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Sakazuki_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20160411100827",
-        "like": 1
+      "id": 19,
+      "name": "Akainu",
+      "crew": "Marine",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Sakazuki_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20160411100827",
+      "like": 1
     },
     {
-        "id": 20,
-        "name": "Kuzan",
-        "crew": "Former Marine", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/7/76/Kuzan_Digitally_Colored_Manga.png/revision/latest/scale-to-width-down/956?cb=20211015070614",
-        "like": 9
+      "id": 20,
+      "name": "Kuzan",
+      "crew": "Former Marine",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/7/76/Kuzan_Digitally_Colored_Manga.png/revision/latest/scale-to-width-down/956?cb=20211015070614",
+      "like": 9
     },
     {
-        "id": 21,
-        "name": "Fujitora",
-        "crew": "Marine", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/e/e8/Issho_Anime_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20160912171323",
-        "like": 9
+      "id": 21,
+      "name": "Fujitora",
+      "crew": "Marine",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/e/e8/Issho_Anime_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20160912171323",
+      "like": 9
     },
     {
-        "id": 22,
-        "name": "Kaido",
-        "crew": "Beast Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/2/2d/Kaidou_Anime_Infobox.png/revision/latest/scale-to-width-down/654?cb=20191222101128",
-        "like": 11
+      "id": 22,
+      "name": "Kaido",
+      "crew": "Beast Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/2/2d/Kaidou_Anime_Infobox.png/revision/latest/scale-to-width-down/654?cb=20191222101128",
+      "like": 11
     },
     {
-        "id": 23,
-        "name": "Big Mom",
-        "crew": "BiG Mom Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/d/d8/Charlotte_Linlin_Anime_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20180423150804",
-        "like": 12
+      "id": 23,
+      "name": "Big Mom",
+      "crew": "BiG Mom Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/d/d8/Charlotte_Linlin_Anime_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20180423150804",
+      "like": 12
     },
     {
-        "id": 24,
-        "name": "Trafalar D. Water Law",
-        "crew": "Heart Pirates", 
-        "image": "https://static.wikia.nocookie.net/onepiece/images/d/d4/Trafalgar_D._Water_Law_Manga_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/458?cb=20150720152834",
-        "like": 15
+      "id": 24,
+      "name": "Trafalar D. Water Law",
+      "crew": "Heart Pirates",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/d/d4/Trafalgar_D._Water_Law_Manga_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/458?cb=20150720152834",
+      "like": 15
+    },
+    {
+      "name": "Charlotte Katakuri",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/2/2e/Charlotte_Katakuri_Anime_Infobox.png/revision/latest/scale-to-width-down/648?cb=20190326172301",
+      "crew": "BiG Mom Pirates",
+      "id": 25
     }
-]
+  ]
 }

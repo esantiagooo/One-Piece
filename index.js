@@ -9,11 +9,23 @@ let OPCharacters = [];
 form.addEventListener('submit', function(event){
     event.preventDefault()
     const name = document.querySelector('#new-character').value
-    const picture = document.querySelector('#new-image')/value
+    const picture = document.querySelector('#new-image').value
     const squad = document.querySelector('#new-crew').value
-    console.log(name)
-    console.log(picture)
-    console.log(squad)
+     let createCharacter = {
+         name: name,
+         image: picture,
+         crew: squad,
+     }
+     fetch(OnePiece,{
+         method: 'POST',
+         headers: {
+             'Content-type': 'application/json',
+             'Accept': 'application/json'
+         },
+         body: JSON.stringify(createCharacter)
+     })
+     cardContainer(createCharacter)
+     form.reset()
     
 })
 
@@ -52,15 +64,15 @@ function cardContainer(){
     });
     
 }
-function handleSearch(event){
-    const searchInput = event.target.value.toLowerCase()
-    const filterOnePiece = OPCharacters.filter(pirate =>{
-        return(
-            pirate.name.toLowerCase().includes(searchInput)
-        )
-    })
-    console.log(filterOnePiece)
-}
+// function handleSearch(event){
+//     const searchInput = event.target.value.toLowerCase()
+//     const filterOnePiece = OPCharacters.filter(pirate =>{
+//         return(
+//             pirate.name.toLowerCase().includes(searchInput)
+//         )
+//     })
+//     console.log(filterOnePiece)
+// }
 
 
 
@@ -75,5 +87,5 @@ function handleSearch(event){
 //     })
 //     pirates(filterOnePiece)
 // })
-document.addEventListener('keyup', handleSearch)
+// document.addEventListener('keyup', handleSearch)
 document.addEventListener('DOMContentLoaded', pirates)
