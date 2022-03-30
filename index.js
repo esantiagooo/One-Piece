@@ -29,6 +29,12 @@ form.addEventListener('submit', function(event){
     
 })
 
+function gatherDataForm(event){
+    return{
+         Name: event.target.value
+    }
+}
+
 function pirates(){
     fetch(OnePiece)
     .then(resp => resp.json())
@@ -51,10 +57,10 @@ function cardContainer(){
         crew.innerHTML = pirate.crew
         div.append(crew)
 
-        let image = document.createElement('img')
-        image.src = pirate.image
-        image.className = 'OP-Characters-avatar'
-        div.append(image)
+        let img = document.createElement('img')
+        img.src = pirate.image
+        img.className = 'OP-Characters-avatar'
+        div.append(img)
 
         let button = document.createElement('button')
         button.className = 'delete-btn'
