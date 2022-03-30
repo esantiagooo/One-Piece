@@ -59,7 +59,7 @@ function cardContainer(){
         let button = document.createElement('button')
         button.className = 'delete-btn'
         button.id = pirate.id
-        button.textContent = 'Delete'
+        button.innerText = 'Delete'
         div.append(button)
     });
     
