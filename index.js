@@ -6,6 +6,17 @@ console.log(form)
 const input = document.querySelector('#search-input')
 let OPCharacters = [];
 
+form.addEventListener('submit', function(event){
+    event.preventDefault()
+    const name = document.querySelector('#new-character').value
+    const picture = document.querySelector('#new-image')/value
+    const squad = document.querySelector('#new-crew').value
+    console.log(name)
+    console.log(picture)
+    console.log(squad)
+    
+})
+
 function pirates(){
     fetch(OnePiece)
     .then(resp => resp.json())
@@ -50,6 +61,7 @@ function handleSearch(event){
     })
     console.log(filterOnePiece)
 }
+
 
 
 // input.addEventListener('keyup', function(e){
