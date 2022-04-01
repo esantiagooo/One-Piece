@@ -3,33 +3,33 @@ const OnePiece = "http://localhost:3000/OPCharacters"
 const form = document.querySelector('#form-container')
 console.log(form)
 
+
 const input = document.querySelector('#search-input')
 let OPCharacters = [];
 
-// form.addEventListener('submit', function(event){
-//     event.preventDefault()
-//     const name = document.querySelector('#new-character').value
-//     const picture = document.querySelector('#new-image').value
-//     const squad = document.querySelector('#new-crew').value
-//      let createCharacter = {
-//          name: name,
-//          image: picture,
-//          crew: squad,
-//      }
-//      fetch(OnePiece,{
-//          method: 'POST',
-//          headers: {
-//              'Content-type': 'application/json',
-//              'Accept': 'application/json'
-//          },
-//          body: JSON.stringify(createCharacter)
-//      })
-//      .then(resp => resp.json())
-//      .then(createCharacter => cardContainer(createCharacter)
-//       //form.reset()
-//      )   
-// })
-
+form.addEventListener('submit', function(event){
+    event.preventDefault()
+    const name = document.querySelector('#new-character').value
+    const picture = document.querySelector('#new-image').value
+    const squad = document.querySelector('#new-crew').value
+     let createCharacter = {
+         name: name,
+         image: picture,
+         crew: squad,
+     }
+     fetch(OnePiece,{
+         method: 'POST',
+         headers: {
+             'Content-type': 'application/json',
+             'Accept': 'application/json'
+         },
+         body: JSON.stringify(createCharacter)
+     })
+     .then(resp=> resp.json())
+      cardContainer(createCharacter)
+    form.reset()
+      
+})
 
 function pirates(){
     fetch(OnePiece)
@@ -67,28 +67,7 @@ function cardContainer(){
     
 }
 
-form.addEventListener('submit', function(event){
-    event.preventDefault()
-    const name = document.querySelector('#new-character').value
-    const picture = document.querySelector('#new-image').value
-    const squad = document.querySelector('#new-crew').value
-     let createCharacter = {
-         name: name,
-         image: picture,
-         crew: squad,
-     }
-     fetch(OnePiece,{
-         method: 'POST',
-         headers: {
-             'Content-type': 'application/json',
-             'Accept': 'application/json'
-         },
-         body: JSON.stringify(createCharacter)
-     })
-      cardContainer(createCharacter)
-    form.reset()
-      
-})
+
 // function handleSearch(event){
 //     const searchInput = event.target.value.toLowerCase()
 //     const filterOnePiece = OPCharacters.filter(pirate =>{
