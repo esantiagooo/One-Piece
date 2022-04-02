@@ -1,7 +1,6 @@
 const OPCollection = document.querySelector('#OP-Collection')
 const OnePiece = "http://localhost:3000/OPCharacters"
 const form = document.querySelector('#form-container')
-console.log(form)
 
 
 const input = document.querySelector('#search-input')
@@ -60,9 +59,16 @@ function cardContainer(){
 
         let button = document.createElement('button')
         button.className = 'delete-btn'
-        button.id = pirate.id
         button.innerText = 'Delete'
+        button.id = pirate.id
         div.append(button)
+        
+        button.addEventListener('click', function(e){
+            let element = document.querySelector('.card')
+            e.stopPropagation()
+            element.remove()
+            
+        })
     });
     
 }
