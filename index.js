@@ -4,9 +4,15 @@ const form = document.querySelector('#form-container')
 const searchInput = document.querySelector('#search-input')
 let OPCharacters = [];
 
-searchInput.addEventListener('click', function(e){
-    const value = e.target.value.toLowerCase()
-    
+searchInput.addEventListener('input', function(e){
+    let value = e.target.value.toLowerCase()
+    let filteredCharacters = OPCharacters.filter(pirate => 
+        pirate.name.toLowerCase().includes(value) ||
+        pirate.crew.toLowerCase().includes(value)
+    )
+
+    OPCollection.innerHTML = ""
+    cardContainer(filteredCharacters)
 })
 
 form.addEventListener('submit', function(event){
@@ -27,8 +33,10 @@ form.addEventListener('submit', function(event){
          },
          body: JSON.stringify(createCharacter)
      })
-     .then(resp=> resp.json())
-      cardContainer(createCharacter)
+     .then(resp => resp.json())
+     .then(newCharacter => cardContainer([newCharacter]))
+    //  .then(cardContainer(createCharacter))
+      
     form.reset()
       
 })
@@ -38,11 +46,11 @@ function pirates(){
     .then(resp => resp.json())
     .then(data => {
         OPCharacters = data
-        cardContainer()
+        cardContainer(OPCharacters)
     })
 }
-function cardContainer(){
-    OPCharacters.map(pirate => {
+function cardContainer(allcharacters){
+    allcharacters.map(pirate => {
         let div = document.createElement('div')
         div.className = 'card'
         OPCollection.append(div)
@@ -75,4 +83,5 @@ function cardContainer(){
     });
     
 }
+
 document.addEventListener('DOMContentLoaded', pirates)
