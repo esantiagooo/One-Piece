@@ -1,10 +1,13 @@
 const OPCollection = document.querySelector('#OP-Collection')
 const OnePiece = "http://localhost:3000/OPCharacters"
 const form = document.querySelector('#form-container')
-
-
-const input = document.querySelector('#search-input')
+const searchInput = document.querySelector('#search-input')
 let OPCharacters = [];
+
+searchInput.addEventListener('click', function(e){
+    const value = e.target.value.toLowerCase()
+    
+})
 
 form.addEventListener('submit', function(event){
     event.preventDefault()
@@ -39,7 +42,7 @@ function pirates(){
     })
 }
 function cardContainer(){
-    OPCharacters.forEach(pirate => {
+    OPCharacters.map(pirate => {
         let div = document.createElement('div')
         div.className = 'card'
         OPCollection.append(div)
@@ -64,7 +67,7 @@ function cardContainer(){
         div.append(button)
         
         button.addEventListener('click', function(e){
-            let element = document.querySelector('.card')
+            let element = document.getElementById(e.target.id).parentElement
             e.stopPropagation()
             element.remove()
             
@@ -72,30 +75,4 @@ function cardContainer(){
     });
     
 }
-
-
-// function handleSearch(event){
-//     const searchInput = event.target.value.toLowerCase()
-//     const filterOnePiece = OPCharacters.filter(pirate =>{
-//         return(
-//             pirate.name.toLowerCase().includes(searchInput)
-//         )
-//     })
-//     console.log(filterOnePiece)
-// }
-
-
-
-// input.addEventListener('keyup', function(e){
-//     const searchInput = e.target.value 
-//      debugger;
-//     const filterOnePiece = OPCollection.filter(pirate =>{
-//         return(
-//             pirate.name.includes(searchInput)
-            
-//         ) 
-//     })
-//     pirates(filterOnePiece)
-// })
-// document.addEventListener('keyup', handleSearch)
 document.addEventListener('DOMContentLoaded', pirates)
