@@ -2,6 +2,11 @@ body{
         margin: 0;
         font-family: monospace;
 }
+#search-input{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 #One-Piece-Header {
     display: flex;
     justify-content: center;
