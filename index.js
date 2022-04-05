@@ -18,12 +18,12 @@ searchInput.addEventListener('input', function(e){
 form.addEventListener('submit', function(event){
     event.preventDefault()
     const name = document.querySelector('#new-character').value
-    const picture = document.querySelector('#new-image').value
-    const squad = document.querySelector('#new-crew').value
-     let createCharacter = {
-         name: name,
-         image: picture,
-         crew: squad,
+    const image = document.querySelector('#new-image').value
+    const crew = document.querySelector('#new-crew').value
+     const  createCharacter = {
+          name,
+          image,
+          crew,
      }
      fetch(OnePiece,{
          method: 'POST',
@@ -50,7 +50,7 @@ function pirates(){
     })
 }
 function cardContainer(allcharacters){
-    allcharacters.map(pirate => {
+     allcharacters.forEach(pirate => {
         let div = document.createElement('div')
         div.className = 'card'
         OPCollection.append(div)
@@ -78,10 +78,22 @@ function cardContainer(allcharacters){
             let element = document.getElementById(e.target.id).parentElement
             e.stopPropagation()
             element.remove()
+            deleteCharacter(pirate.id)
             
         })
     });
     
+}
+function deleteCharacter(id){
+    fetch(`${OnePiece}/${id}` ,{
+        method: 'DELETE',
+        headers: {
+            'Content-type': 'application/json',
+            'Accept': 'application/json'
+        },
+    })
+    .then(resp => resp.json())
+    .then(pirate => console.log(pirate))
 }
 
 document.addEventListener('DOMContentLoaded', pirates)
