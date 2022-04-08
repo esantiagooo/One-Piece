@@ -35,9 +35,7 @@ form.addEventListener('submit', function(event){
      })
      .then(resp => resp.json())
      .then(newCharacter => cardContainer([newCharacter]))
-    //  .then(cardContainer(createCharacter))
-      
-    form.reset()
+     form.reset()
       
 })
 
