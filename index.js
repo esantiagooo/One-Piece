@@ -68,7 +68,7 @@ function cardContainer(allcharacters){
 
         let button = document.createElement('button')
         button.className = 'delete-btn'
-        button.innerText = 'Delete'
+        button.innerHTML = 'Delete'
         button.id = pirate.id
         div.append(button)
         
@@ -90,8 +90,6 @@ function deleteCharacter(id){
             'Accept': 'application/json'
         },
     })
-    .then(resp => resp.json())
-    .then(pirate => console.log(pirate))
 }
 
 document.addEventListener('DOMContentLoaded', pirates)

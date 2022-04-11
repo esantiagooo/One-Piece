@@ -134,13 +134,6 @@
       "like": 12
     },
     {
-      "id": 19,
-      "name": "Akainu",
-      "crew": "Marine",
-      "image": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Sakazuki_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20160411100827",
-      "like": 1
-    },
-    {
       "id": 20,
       "name": "Kuzan",
       "crew": "Former Marine",
@@ -162,13 +155,6 @@
       "like": 11
     },
     {
-      "id": 23,
-      "name": "Big Mom",
-      "crew": "BiG Mom Pirates",
-      "image": "https://static.wikia.nocookie.net/onepiece/images/d/d8/Charlotte_Linlin_Anime_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20180423150804",
-      "like": 12
-    },
-    {
       "id": 24,
       "name": "Trafalar D. Water Law",
       "crew": "Heart Pirates",
@@ -188,16 +174,22 @@
       "id": 27
     },
     {
-      "name": "Scopper Gaban",
-      "image": "https://static.wikia.nocookie.net/onepiece/images/f/f0/Scopper_Gaban_Anime_Infobox.png/revision/latest/scale-to-width-down/620?cb=20210321131336",
-      "crew": "Roger Pirates",
-      "id": 28
-    },
-    {
       "name": "Charlotte Katakuri",
       "image": "https://static.wikia.nocookie.net/onepiece/images/2/2e/Charlotte_Katakuri_Anime_Infobox.png/revision/latest/scale-to-width-down/648?cb=20190326172301",
       "crew": "BiG Mom Pirates",
       "id": 29
+    },
+    {
+      "name": "jordan",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/f/f0/Scopper_Gaban_Anime_Infobox.png/revision/latest/scale-to-width-down/620?cb=20210321131336",
+      "crew": "luffy pirates",
+      "id": 30
+    },
+    {
+      "name": "kody",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/b/b8/Koby_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20131114070903m",
+      "crew": "Marines",
+      "id": 31
     }
   ]
 }
