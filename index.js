@@ -4,6 +4,7 @@ const form = document.querySelector('#form-container')
 const searchInput = document.querySelector('#search-input')
 let OPCharacters = [];
 
+
 searchInput.addEventListener('input', function(e){
     let value = e.target.value.toLowerCase()
     let filteredCharacters = OPCharacters.filter(pirate => 
@@ -34,10 +35,15 @@ form.addEventListener('submit', function(event){
          body: JSON.stringify(createCharacter)
      })
      .then(resp => resp.json())
-     .then(newCharacter => cardContainer([newCharacter]))
+     .then(newCharacter => addCharacterToFrontEnd(newCharacter))
      form.reset()
-      
+     
 })
+
+function addCharacterToFrontEnd(newCharacter){
+    cardContainer([newCharacter])
+    OPCharacters.push(newCharacter)
+}
 
 function pirates(){
     fetch(OnePiece)

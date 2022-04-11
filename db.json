@@ -190,6 +190,24 @@
       "image": "https://static.wikia.nocookie.net/onepiece/images/b/b8/Koby_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20131114070903m",
       "crew": "Marines",
       "id": 31
+    },
+    {
+      "name": "Scopper Gaban",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/f/f0/Scopper_Gaban_Anime_Infobox.png/revision/latest/scale-to-width-down/620?cb=20210321131336",
+      "crew": "Roger Pirates",
+      "id": 32
+    },
+    {
+      "name": "Kozuki Oden",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/6/62/Kozuki_Oden_Anime_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20210425071747",
+      "crew": "Former WhiteBeard Pirates and Roger Pirates",
+      "id": 33
+    },
+    {
+      "name": "jordan",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/6/62/Kozuki_Oden_Anime_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20210425071747",
+      "crew": "Former WhiteBeard Pirates and Roger Pirates",
+      "id": 34
     }
   ]
 }
